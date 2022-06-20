@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ExitScript : MonoBehaviour
 {
-    Item item = new Item { itemType = Item.ItemType.Coin, amount = 5 };
+    Item item = new Item { itemType = Item.ItemType.Coin, amount = 100 };
 
     private void Start()
     {
